@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-starter",
+  "name": "minimal-react-redux-saga",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,11 @@
     "prettier": "^1.7.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.16"
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.16",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-saga": "^0.16.0"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
